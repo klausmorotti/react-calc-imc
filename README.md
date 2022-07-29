@@ -1,9 +1,9 @@
 <h1 align="center">CALCULADORA DE IMC</h1>
 
-<img src="src/assets/images/react-calc-imc-gif.gif" alt="Video Projeto" width="100%" height="500">
+<img src="react-calc-img-gif.gif" alt="Video Projeto" width="100%" height="500">
 
 > 🔎 Calcule o seu IMC e veja se pode dar uma abusada no final de semana 😆. <br>
-🗔 Confira a aplicação:  <br>
+🗔 Confira a aplicação: https://react-calc-imc-livid.vercel.app/ <br>
 ## Explicação
 Quem aí não gosta de dar uma ultrapassada dos limites no final de semana com amigos ou família haha? A calculadora de IMC permite ver seu indíce de massa corporal e analisar se pode dar uma abusada na alimentação
 
@@ -56,7 +56,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 ## 📝 Licença
 
-Este projeto está sob licença. Consulte o arquivo <a href="">LICENSE</a> para obter mais detalhes.
+Este projeto está sob licença. Consulte o arquivo <a href="https://github.com/klausmorotti/react-calc-imc/blob/master/LICENSE">LICENSE</a> para obter mais detalhes.
 
 
 <a href="#top">Volte para o topo</a>
