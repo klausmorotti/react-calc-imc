@@ -5,7 +5,7 @@
 > 🔎 Calcule o seu IMC e veja se pode dar uma abusada no final de semana 😆. <br>
 🗔 Confira a aplicação: https://react-calc-imc-livid.vercel.app/ <br>
 ## Explicação
-Quem aí não gosta de dar uma ultrapassada dos limites no final de semana com amigos ou família haha? A calculadora de IMC permite ver seu indíce de massa corporal e analisar se pode dar uma abusada na alimentação
+Quem aí não gosta de dar uma ultrapassada dos limites no final de semana com amigos ou família haha? A calculadora de IMC permite ver seu indíce de massa corporal e analisar se pode dar uma abusada na alimentação.
 
 O projeto foi desenvolvido com a biblioteca ReactJS utilizando o método CSS Modules para estilização. 
 Uma página dinâmica com interface interativa e 100% responsiva para poder consultar em qualquer dispositivo.
