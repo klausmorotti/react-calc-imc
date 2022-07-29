@@ -1,0 +1,37 @@
+.card {
+    flex:1;
+    color:#FFF;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+.card:hover {
+    transform:scale(1.05, 1.05);
+    transition:all ease .5s;
+    cursor:pointer;
+}
+.gridIcon {
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color:rgba(0, 0, 0, .1);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.gridTitle {
+    font-size:20px;
+    font-weight:700;
+    margin:10px 0;
+}
+.gridInfo {
+    text-align:center;
+    font-size:15px;
+}
+.yourImc {
+    font-size:15px;
+    margin:10px 0 50px 0;
+}

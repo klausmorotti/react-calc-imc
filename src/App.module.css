@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+main {
+    padding:0 20px 30px 20px;
+}
+.contentHeader {
+    max-width:1000px;
+    margin:40px auto;
+}
+.container {
+    max-width:1000px;
+    margin:auto;
+    display:flex;
+}
+.container .leftSide {
+    flex:1;
+    margin-right:50px;
+}
+.container .leftSide h1 {
+    color:#3A4B5C;
+    font-size:35px;
+}
+.container .leftSide p {
+    color:#6A7D8B;
+    font-size:18px;
+    margin:20px 0;
+}
+.container .leftSide input {
+    width:100%;
+    margin-top:20px;
+    padding:10px 0;
+    border:0;
+    border-bottom:1px solid rgba(150, 163, 171, .5);
+    outline:0;
+}
+.container .leftSide input:disabled {
+    opacity:.5;
+}
+.container .leftSide button {
+    width:100%;
+    margin-top:50px;
+    border-radius:10px;
+    background-color:#227C9D;
+    color:#FFF;
+    padding:10px 0;
+    font-size:16px;
+    cursor:pointer;
+}
+.container .leftSide button:disabled {
+    opacity:.5;
+}
+.container .leftSide button:hover {
+    opacity:.5;
+    transition:all ease .5s;
+}
+
+
+.container .rightSide {
+    flex:1;
+    margin-left:50px;
+    display:flex;
+}
+.container .rightSide .grid {
+    flex:1;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+.container .rightSide .bigCard {
+    flex:1;
+    display:flex;
+}
+.container .rightSide .rightArrow {
+    position:absolute;
+    background-color:#227C9D;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:-35px;
+    margin-top:145px;
+    z-index:9;
+    cursor:pointer;
+}
+.container .rightSide .rightArrow:hover {
+    opacity:.3;
+    transition:all ease .5s;
+}
+
+/* Responsividade */
+@media only screen and ( max-width:900px ) {
+    .container {
+        flex-direction:column;
+    }
+    .container .leftSide {
+        margin-right:0;
+    }
+    .container .rightSide {
+        margin-left:0;
+        margin-top:50px;
+    }
+    .container .rightSide .rightArrow {
+        margin-top:0;
+        margin-left:0;
+        border-radius:10px;
+    }
+}
+
+@media only screen and ( max-width:500px ) {
+    .container .rightSide .grid {
+        grid-template-columns: 1fr;
+    }
+}
