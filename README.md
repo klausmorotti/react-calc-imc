@@ -31,7 +31,7 @@ O site tem no total 1 página, sendo ela
 :heavy_check_mark: Fazendo o sistema funcionar (Retornando o IMC referente aos dados do usuário). <br>
 :heavy_check_mark: Habilitando Disabled nos campos quando é retornado um resultado. <br>
 :heavy_check_mark: Tornando o projeto responsivo. <br>
-:heavy_check_mark: Projeto completo. <br>
+:heavy_check_mark: Projeto finalizado. <br>
 
 ## 🚀 Tecnologias 
 
